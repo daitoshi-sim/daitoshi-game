@@ -1,18 +1,23 @@
-﻿using System.Collections;
+﻿// Caden 2020
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tiles : MonoBehaviour
+namespace Daitoshi
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Tile
     {
-        
-    }
+        TileType type;
+        public int x;
+        public int y;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public Tile(int x, int y, TileType type)
+        {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
+
+
