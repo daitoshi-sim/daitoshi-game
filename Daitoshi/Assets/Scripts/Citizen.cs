@@ -29,6 +29,9 @@ namespace Daitoshi
         {
 
         }
+        /// <summary>
+        /// Citizen decides what to do for the day
+        /// </summary>
         public void makePlan()
         {
 
