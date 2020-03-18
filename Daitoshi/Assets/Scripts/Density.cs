@@ -9,6 +9,7 @@ namespace Daitoshi
     {
         High,
         Medium,
-        Low
+        Low,
+        None
     }
 }
