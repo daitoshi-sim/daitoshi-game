@@ -9,9 +9,10 @@ namespace Daitoshi
     {
         public Citizen citizen;
         public float salary;
-        public Employee()
+        public Employee(Citizen citizen, float salary)
         {
-
+            this.citizen = citizen;
+            this.salary = salary;
         }
 
     }
