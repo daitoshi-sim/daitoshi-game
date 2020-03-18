@@ -13,7 +13,15 @@ namespace Daitoshi
        public int goodsNeeds;
        public int servicesNeeds;
        public int leisureNeeds;
-       public Job job;
+       public Building workplace; 
 
+       public Citizen()
+        {
+
+        }
+        public void goToWork()
+        {
+
+        }
     }
 }

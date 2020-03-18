@@ -1,17 +1,18 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Job : MonoBehaviour
+    public class Employee 
     {
+        public Citizen citizen;
         public float salary;
-        public Building building;
-        public Job()
+        public Employee()
         {
 
         }
+
     }
 }

@@ -5,12 +5,10 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Office : Building
+    public enum Density 
     {
-        public IList<Employee> employees;
-        public Office()
-        {
-
-        }
+        High,
+        Medium,
+        Low
     }
 }

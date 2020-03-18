@@ -5,12 +5,11 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Office : Building
+    public enum CommercialType
     {
-        public IList<Employee> employees;
-        public Office()
-        {
-
-        }
+        Goods,
+        Services,
+        Leisure,
+        Mixed
     }
 }

@@ -7,6 +7,13 @@ namespace Daitoshi
 {
     public class Building : MonoBehaviour
     {
+        public Density density;
+        public Wealth wealth;
+        //Add Tiles array reference
 
+        public Building()
+        {
+
+        }
     }
 }
