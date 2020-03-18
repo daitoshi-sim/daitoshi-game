@@ -5,19 +5,8 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Commerical : Buidling
+    public class Commerical : Building
     {
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }

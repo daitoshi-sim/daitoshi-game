@@ -7,17 +7,12 @@ namespace Daitoshi
 {
     public class Residential : Building
     {
-
+        public IList<Citizen> residents;
         // Start is called before the first frame update
-        void Start()
+        public Residential()
         {
-
+            residents = new List<Citizen>();
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
