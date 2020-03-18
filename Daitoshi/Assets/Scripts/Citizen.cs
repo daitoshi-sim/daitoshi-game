@@ -16,9 +16,9 @@ namespace Daitoshi
        /// This value will affect how willing the person is to spend money at commercial buildings
        /// </summary>
        public int frugality;
-       public int goodsNeeds;
-       public int servicesNeeds;
-       public int leisureNeeds;
+       public int goodsNeed;
+       public int servicesNeed;
+       public int leisureNeed;
        public Building workplace; 
 
        public Citizen()
@@ -26,6 +26,10 @@ namespace Daitoshi
 
         }
         public void goToWork()
+        {
+
+        }
+        public void makePlan()
         {
 
         }

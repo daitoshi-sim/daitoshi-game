@@ -5,14 +5,11 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Commercial : Building
+    public class Commercial : Business
     {
-        public IList<Employee> employees;
-        public int employeeCapacity;
         public IList<Citizen> customers;
         public int customerCapacity;
         public CommercialType type;
-        public float fixedCost;
         public Commercial()
         {
 

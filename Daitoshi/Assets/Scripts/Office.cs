@@ -5,11 +5,8 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Office : Building
+    public class Office : Business
     {
-        public IList<Employee> employees;
-        public int employeeCapacity;
-        public float fixedCost;
         public Office()
         {
 

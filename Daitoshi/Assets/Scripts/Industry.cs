@@ -5,11 +5,9 @@ using Daitoshi;
 
 namespace Daitoshi
 {
-    public class Industry : Building
+    public class Industry : Business
     {   
-        public IList<Employee> employees;
-        public int employeeCapacity;
-        public float fixedCost;
+        public int resources;
         public Industry()
         {
 
